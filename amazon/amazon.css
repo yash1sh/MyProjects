@@ -1,0 +1,473 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: #0f171e;
+    background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+#textnav{
+    color: rgba(204, 217, 230, 0.9);
+    font-size: 17px;
+}
+
+
+
+.div1 div ul li{
+    display: inline;
+    padding: 20px 5px;
+}
+
+
+.div1 div ul{
+    padding-top: 25px;
+    /* padding-left: 1px; */
+}
+
+.en{
+    color:rgba(204, 217, 230, 0.9);
+    position: relative;
+    left:2%;
+    text-decoration: none;
+}
+
+.primelog{
+    padding-left: 50px;
+    padding-top: 20px;
+   
+}
+
+
+.div2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freebutton{
+    color: white;
+    background-color: #0f79af;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 190px;
+    padding: 9px 20px;
+    border-radius: 5px;
+    border-color: #0f79af;
+
+}
+.freebutton:hover{
+    background-color: #2199d5;
+}
+.searchicon{
+   font-size: 20px;
+   padding-top: 10px;
+}
+.icons{
+    color: white;
+    height: 5px;
+    width: 5px;
+}
+/* .eng{
+    color: white;
+    padding-left: 30px;
+} */
+.div2 div ul li{
+    display: inline;
+    padding: 20px 20px ;
+}
+
+#cati{
+    color: white;  
+    display: none;
+    height: 45vh;
+    width: 100%;
+    background-color: #0f171e;
+    background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+    justify-content: space-between;
+    /* position: absolute; */
+    z-index: -1;
+}
+
+.catidiv{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+.catidivdiv{
+    width: 530.98px;
+    height: 300.08px;
+    line-height: 40px;
+    border: 1.2px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    margin-top: 10px;
+}
+
+
+.catit1{
+    color: white;
+    padding-top: 20px; 
+
+}
+
+
+
+section #cati .catidiv .catidivdiv ul li{
+    display:inline;
+    padding:10px 5px;
+    /* flex-wrap: wrap; */
+}
+
+
+
+.catibuttons1{
+    color: white;
+    background-image: url(catigories-bg.png);
+    background-size: cover;
+    text-align: center;
+    font-size: 15px;
+    padding:30px 35px;
+    border:none;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.catibuttons2{
+  
+        color: white;
+        background-image: url(catigories-bg.png);
+        background-size: cover;
+        text-align: center;
+        font-size: 15px;
+        padding:35px 35px;
+        border:none;
+        border-radius: 5px;
+        margin-top: 5px;
+    
+}
+
+.catibuttons1:hover{
+    border:2px solid white;
+}
+
+.catibuttons2:hover{
+    border:2px solid white;
+}
+
+.cat0{
+     text-decoration: none; 
+     cursor: pointer;
+     /* position: relative; */
+} 
+
+.catidiv2{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 50%;
+}
+
+.catiaudio{
+    color: white ;
+    list-style: none;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.catilan{
+    color: rgb(97,114,132);
+    list-style: none;
+    line-height: 30px;
+    padding-top: 50px; 
+     padding-right: 100px;
+    
+}
+
+.catilanli:hover{
+    color: white;
+}
+
+.catili{
+    color: rgb(97,114,132);
+    font-size: 18px;
+}
+
+.catili:hover{
+    color: white;
+}
+
+
+.mid{
+    background-color: black;
+    background-image: url(primebg.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: 100px 0;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+
+.gfont{
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.tt{
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    padding-left: 76px;
+    padding-top: 112px;
+}
+h4{
+    color: white;
+    padding-left: 76px;
+    padding-top:13px;
+    font-size: 22px;
+}
+
+.midbutton{
+    color: white;
+    background-color: #0f79af;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 76px;
+    padding: 12px 40px;
+    border-radius: 5px;
+    border-color: #0f79af;
+}
+
+.midbutton:hover{
+    background-color: #2199d5;
+}
+
+h6{
+    color: white;
+    font-size: 13px;
+    padding-left: 130px;
+    padding-top: 15px;
+}
+
+
+.middown{
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(prime-downimg.jpg);
+    background-position: right top;
+    height: 70vh;
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    padding-left: 76px;
+    padding-top: 110px;
+}
+
+h2{
+    color: white;
+    font-size: 20px; 
+    padding-top: 75px;
+    padding-left: 76px;
+}
+
+.downbutton{
+    color: white;
+    background-color: #0f79af;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 76px;
+    padding: 12px 90px;
+    border-radius: 4px;
+    border-color: #0f79af;
+}
+
+.down2{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 75.9px;
+}
+.down2in
+{
+    width: 50%;
+}
+
+h5{
+    color: black;
+    font-size: 40px;
+    padding-left: 5px;
+    padding-top: 60px;
+    text-decoration: none;
+}
+
+h3{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img9{
+    height: auto;
+    width: auto;
+    margin-right: 5px;
+}
+
+.img img
+{
+    
+    width: 221.89px;
+    height: 153.13px;
+}
+
+img:hover{
+    box-shadow: 0.5px 0.5px 0.5px 3.5px rgba(53, 51, 51, 0.807) ;
+    
+}
+
+.down3{
+    background-image: url(prime-remote.jpg);
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.down3t1{
+    color: white;
+    font-size: 40px;
+    padding-left: 550px;
+    padding-top: 80px;
+    font-weight: 900;
+
+}
+
+.down3t2{
+    color: white;
+    font-size: 20px;
+    padding-left: 550px;
+    height: auto;
+    width: auto;
+}
+.down3div{
+    height: auto;
+    width: auto;
+}
+
+.down3button{
+    color: white;
+    background-color: #0f79af;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 550px;
+    padding: 12px 90px;
+    border-radius: 4px;
+    border-color: #0f79af;
+}
+
+.down4{
+    background: url(IN-kids-30Jan._CB1517304519_.jpg);
+    height: 67vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.down4t1{
+    color:white;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 80px;
+    padding-top: 90px;
+}
+
+.down4t2{
+    color:white;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.down4button{
+    color: white;
+    background-color: #0f79af;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 80px;
+    padding: 14px 90px;
+    border-radius: 4px;
+    border-color: #0f79af;
+}
+.footer{
+    height: 18vh;
+    width: 100%;
+    background-color: #1e2123;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.footer article div img{
+    height: 5vh;
+    width: 13vh;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+.links{
+    color:grey ;
+    margin-left: 420px;
+    word-spacing: 2px;
+    font-size: 16px;
+  
+}
+
+.linkin{
+    text-decoration: none;
+    color: #0f79af;
+    cursor: pointer;
+}

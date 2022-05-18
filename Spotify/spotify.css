@@ -1,0 +1,296 @@
+*{
+    padding:0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility; */
+}
+
+.nav{
+    width: 100%;
+    height: 11vh;
+    background-color: black;
+}
+
+.nav_article{
+    width: 87%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav_article ul li{
+    color: white;
+    display: inline-block;
+    padding:  7px ;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.nav_button{
+    background-color: black;
+   border: none;
+    font-size: 20px;
+   
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav .nav_article ul li :hover{
+    color: lightgreen;
+
+}
+
+#svg1{
+fill: white;
+height: 135px;
+width: 135px;
+margin-left: 190px;
+margin-top: 90px;
+
+}
+
+
+/* .svg_div{
+    padding: 490px 500px;
+}  */
+
+.mid_article{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(153, 51, 153);
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+p{
+    text-transform: uppercase;
+    color: white;
+    font-size:13px;
+    padding-left: 20%;
+    padding-top: 10%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+}
+h1{
+    color: white;
+    font-size:55px;
+    padding-left: 23%;
+    padding-top:5%;
+}
+
+.h3{
+    color: white;
+    padding-left: 23%;
+    padding-top: 3%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.midbutton{
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+   margin-left: 23%;
+   margin-top: 4%;
+   padding: 10px 25px;
+    width: 100x;
+    text-transform: uppercase;
+    font-size: 13px;  
+}
+.midbutton:hover{
+    transform: scale(1.1);
+}
+
+
+.midpic {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.imgg
+{
+    object-fit: cover;
+    width:65%;
+    height: 65%;
+}
+.midpic img{
+    display: block;
+    float: right;
+}
+.middiv{
+    width: 60%;
+    height: 80vh;
+}
+
+h6{
+    color: white;
+    font-size: 10px;
+    padding-left: 23%;
+    padding-top: 4%;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.downdiv{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(41,65,171);
+    background-image: url(spotify.svg);
+    background-origin: padding-box;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    display: block;
+    background-size: auto 100%;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(41,65,171);
+    overflow: auto;
+
+}
+.downdiv2{
+    color:#1ed760;
+    /* justify-content: center; */
+}
+
+h5{
+    padding-top: 90px;
+    padding-left: 190px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+h2{
+    padding-top: 30px;
+    padding-left: 190px;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+h3{
+    padding-left: 190px;
+    padding-top: 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.downbutton{
+    margin-left: 190px;
+    margin-top: 80px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #1ed760;
+    color: rgb(41,65,171);
+    border-style: none;
+}
+.downbutton:hover{
+    transform: scale(1.1);
+}
+
+.foot{
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.footerpic{
+    padding-top:75px ;
+    padding-left: 90px;
+    font-size: 40px;
+}
+
+.footerc{
+    color: white;
+    padding-left: 60px;
+    padding-top: 90px;
+    line-height: 40px;
+}
+.footer ul li{
+    list-style: none;
+}
+.licompany{
+    color:  grey;
+    font-size: 14px;
+}
+.footercom{
+    color: white;
+    padding-top: 90px; 
+    padding-left: 80px;
+    line-height: 40px;
+}
+.footeruse{
+    color: white;
+    padding-top: 90px;
+    padding-left: 100px;
+    line-height: 40px;
+}
+.footericons{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 100px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.icons{
+    margin-left: 250px;
+}
+.footericons:hover{
+    color: #1ed760;
+}
+.id:hover{
+    color: #1ed760;
+}
+
+.footerend{
+    color: grey;
+    display: flex;  
+    height: 10vh; 
+}
+
+#svg2{
+    fill: white;
+    height: 135px;
+    width: 135px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.footerend ul li{
+    display: inline-block;
+    padding:  7px ;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+    font-size: 13px;
+   
+}
+
+.enddiv{
+    padding-left:180px
+}
+
+.indeng{
+    padding-left: 700px;
+    font-size: 10px;
+}
