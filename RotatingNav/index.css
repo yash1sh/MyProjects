@@ -1,0 +1,90 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 100vh; */
+  overflow-x: hidden;
+  background-color: rgb(65, 55, 26);
+}
+
+.container {
+  background-color: rgb(232, 135, 135);
+  transform-origin: top left;
+  transform: translate 0.5 linear;
+  /* width: 100vh; */
+
+  min-height: 100vh;
+}
+.container.active {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+.circle {
+  background-color: rgb(201, 55, 55);
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  height: 100vh;
+}
+.circle button {
+    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  color: white;
+}
+.circle button:focus {
+  outline: none;
+}
+.circle button#open {
+  left: 60%;
+}
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.container img {
+  max-width: 100%;
+}
+
+nav{
+    display: none;
+    position: fixed;
+    bottom:40px;
+    left:0px;  
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 30px;
+}
+nav ul li{
+color: white;
+text-transform: uppercase;
+}
+
+.container.active .circle{
+    transform: rotate(-70deg);
+}
